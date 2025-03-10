@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/',(req,res) => {
-  res.send('HELLO WORLD')
+  res.send('HELLO DEAR WORLD')
 })
 
 app.get('/twitter', (req, res) => {
